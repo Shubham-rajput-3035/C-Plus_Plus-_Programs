@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int n, s;
-    cout << "Enter a number: ";
-    cin >> n;
-    s = n / 2 * (1 + n);
-    cout << "sum of series= " << s;
+    int e, f;
+    cout << "\n Enter Number: ";
+    cin >> e;
+    f = e / 2 * (1 + e);
+    cout << f;
     return 0;
 }

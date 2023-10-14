@@ -2,19 +2,18 @@
 using namespace std;
 int main()
 {
-    int a, b, add, sub;
-    cout << "Enter two numbers: ";
-    cin >> a >> b;
-    if (a > b)
+    int u, v, add, sub;
+    cout << "\n Enter Two Numbers: ";
+    cin >> u >> v;
+    if (u > v)
     {
-        sub = a - b;
-        cout << sub;
+        add = u + v;
+        cout << add;
     }
     else
     {
-        add = a + b;
-        cout << add;
+        sub = u - v;
+        cout << sub;
     }
-
     return 0;
 }

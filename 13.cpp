@@ -2,21 +2,21 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "Enter a number: ";
-    cin >> n;
-    if (n > 0)
-    {
-        cout << "Positive Number";
-    }
-    if (n < 0)
+
+    int g;
+    cout << "\n Enter A Numbers: ";
+    cin >> g;
+    if (g < 0)
     {
         cout << "Negetive Number";
     }
-    if (n == 0)
+    else if (g > 0)
     {
-        cout << "zero";
+        cout << "Positive Number";
     }
-
+    else
+    {
+        cout << "Zero";
+    }
     return 0;
 }

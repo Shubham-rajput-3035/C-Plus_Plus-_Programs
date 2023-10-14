@@ -2,13 +2,12 @@
 using namespace std;
 int main()
 {
-    int r, v, a;
-    cout << "Enter radious: ";
+    float r, vol, area;
+    cout << "\n Enter Radious: ";
     cin >> r;
-    v = 4 / 3 * 3.14 * r * r * r;
-    cout << "Volume of a sphare= " << v;
-    a = 4 * 3.14 * r * r;
-    cout << endl
-         << "Surface area of a sphare= " << a;
+    vol = 4 / 3 * 3.14 * r * r;
+    area = 4 * 3.14 * r * r;
+    cout << vol << endl
+         << area;
     return 0;
 }

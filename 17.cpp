@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int a, b, c;
-    cout << "Enter three numbers: ";
+    cout << "\n Enter Three Numbers: ";
     cin >> a >> b >> c;
     if ((a > b) && (a > c))
     {
@@ -17,6 +17,5 @@ int main()
     {
         cout << c;
     }
-
     return 0;
 }

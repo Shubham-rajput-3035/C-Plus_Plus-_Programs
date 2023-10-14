@@ -2,23 +2,22 @@
 using namespace std;
 int main()
 {
-    int pur, pay, dis;
-    cout << "Enter a number: ";
-    cin >> pur;
-    if (pur >= 15000)
+    float PA, Dis, Pay;
+    cout << "\n Enter Purchase Amount: ";
+    cin >> PA;
+    if (PA >= 1500)
     {
-        dis = (pur * 40) / 100;
+        Dis = (PA * 40 / 100);
     }
-    else if ((pur >= 10000) && (pur < 15000))
+    else if (1500 >= 1000)
     {
-        dis = (pur * 30) / 100;
+        Dis = (PA * 30 / 100);
     }
     else
     {
-        dis = (pur * 20) / 100;
+        Dis = (PA * 20 / 100);
     }
-    pay = pur - dis;
-    cout << pay;
-
+    Pay = PA - Dis;
+    cout << Pay;
     return 0;
 }

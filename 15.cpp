@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int a, b, c, avg;
-    cout << "Enter three number: ";
-    cin >> a >> b >> c;
-    avg = a + b + c / 3;
+    int x, y, z, avg;
+    cout << "\n Enter Three Numbers: ";
+    cin >> x >> y >> z;
+    avg = x + y + z / 3;
     if (avg > 60)
     {
         cout << "Pass";
@@ -14,6 +14,5 @@ int main()
     {
         cout << "Fail";
     }
-
     return 0;
 }

@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int u, t, a, d;
-    cout << "Enter three numbers: ";
-    cin >> u >> t >> a;
-    d = u * t + 0.5 * a * t * t;
-    cout << "Distance=" << d;
+    float s, t, u, Distance;
+    cout << "\n Enter Inisial Valocity: ";
+    cin >> s >> t >> u;
+    Distance = s * u + 0.5 * t * u * u;
+    cout << Distance;
     return 0;
 }

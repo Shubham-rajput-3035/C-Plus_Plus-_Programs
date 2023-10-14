@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int r, c;
-    cout << "Enter a redious= ";
+    float r, area;
+    cout << "\n Enter Radious: ";
     cin >> r;
-    c = 0.5 * r * r;
-    cout << "Area of a circle= " << c;
+    area = 3.14 * r * r;
+    cout << area;
     return 0;
 }

@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int r, h, v;
-    cout << "Enter radious and hight: ";
-    cin >> r >> h;
-    v = 3.14 * r * r * h;
-    cout << v;
+    float r1, h, volume;
+    cout << "\n Enter radious and hight= ";
+    cin >> r1 >> h;
+    volume = 3.14 * r1 * r1 * h;
+    cout << volume;
     return 0;
 }

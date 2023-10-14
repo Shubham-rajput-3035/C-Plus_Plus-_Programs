@@ -2,20 +2,18 @@
 using namespace std;
 int main()
 {
-    int h, b, t, r;
-    cout << "Enter heigh & base number: ";
-    cin >> h >> b;
-    if (h > b)
+    int t, r, triangle, rectangle;
+    cout << "\n Enter Hight and Base=";
+    cin >> t >> r;
+    if (t > r)
     {
-        t = 0.5 * b * h;
-        cout << t;
+        triangle = 1 / 2 * t * r;
+        cout << triangle;
     }
     else
     {
-        r = b * h;
-        cout << endl
-             << r;
+        rectangle = t * r;
+        cout << rectangle;
     }
-
     return 0;
 }

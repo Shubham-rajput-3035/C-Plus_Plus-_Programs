@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
-    int a, b;
-    cout << "Enter two number: ";
-    cin >> a >> b;
-    if (a > b)
-    {
-        cout << a;
-    }
-    if (b > a)
-    {
-        cout << b;
-    }
 
+    int e, d;
+    cout << "\n Enter Two Numbers: ";
+    cin >> e >> d;
+    if (e > d)
+    {
+        cout << e;
+    }
+    else
+    {
+        cout << d;
+    }
     return 0;
 }

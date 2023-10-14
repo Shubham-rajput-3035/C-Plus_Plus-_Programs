@@ -1,3 +1,4 @@
+// Add two numbers
 #include <iostream>
 using namespace std;
 int main()
@@ -11,19 +12,16 @@ int main()
     // Subs two numbers
 
     d = a - b;
-    cout << endl
-         << " substraction= " << d;
+    cout << " substraction= " << d;
 
     // multipl two numbers
 
     e = a * b;
-    cout << endl
-         << " multiplication= " << e;
+    cout << " multiplication= " << e;
 
     // Division two numbers
 
     f = a + b;
-    cout << endl
-         << " Division= " << f;
+    cout << " Division= " << f;
     return 0;
 }

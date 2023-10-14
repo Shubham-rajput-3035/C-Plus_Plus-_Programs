@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int a, b, c, avg;
-    cout << "Enter three numbers: ";
-    cin >> a >> b >> c;
-    avg = a + b + c / 3;
-    if (avg >= 75)
+    int j, k, l, avge;
+    cout << "\n Enter Three Numbers: ";
+    cin >> j >> k >> l;
+    avge = j + k + l / 3;
+    if (avge >= 75)
     {
-        cout << "Distinction";
+        cout << "Distinition";
     }
-    else if (avg >= 50 && avg < 75)
+    else if (75 >= 50)
     {
         cout << "Good";
     }
@@ -18,6 +18,5 @@ int main()
     {
         cout << "Fail";
     }
-
     return 0;
 }

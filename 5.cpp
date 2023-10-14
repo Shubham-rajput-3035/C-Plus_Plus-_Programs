@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-    int pa, t, r, si;
-    cout << "Enter three numbers= ";
-    cin >> pa >> t >> r;
-    si = pa * t * r / 100;
-    cout << "Simple Intrest= " << si;
+    float PA, time, rate, SI;
+    cout << "\n Enter Principal Amount: ";
+    cout << "\n Enter time: ";
+    cout << "\n Enter rate: ";
+    cin >> PA >> time >> rate;
+    SI = PA * time * rate;
+    cout << SI;
     return 0;
 }

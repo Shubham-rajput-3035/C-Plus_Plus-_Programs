@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-    int ps, ns, d, pa;
-    cout << "Enter three numbers: ";
-    cin >> ps >> ns >> d;
-    pa = ps * ns - (ps * ns * d / 100);
-    cout << "payabule amount= " << pa;
+    float ps, ns, dis, PA;
+    cout << "\n Enter ps: ";
+    cout << "\n Enter ns: ";
+    cout << "\n Enter dis: ";
+    cin >> ps >> ns >> dis;
+    PA = ps * ns - ps * ns * dis / 100;
+    cout << PA;
     return 0;
 }
